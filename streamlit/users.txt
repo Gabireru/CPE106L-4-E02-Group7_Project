@@ -1,2 +1,2 @@
-admin@mymail.mapua.edu.ph,password123
-admin1@mymail.mapua.edu.ph,2023123456789
+julies,pass,Julie's Bakeshop
+paotsin,pass,Paotsin
