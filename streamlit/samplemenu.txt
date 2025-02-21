@@ -1,0 +1,9 @@
+Julie's Bakeshop,Violet Cream Loaf,Intricate violet and white braided loaf topped with sweet creamy icing and grated cheese.,22 php
+Julie's Bakeshop,Choco German,With a creamy choco filling and topped with a sugary-margarine topping to complete the taste.,13 php
+Julie's Bakeshop,Cinnamon Bun,Bread Bun filled with sugar and cinnamon which provide a robust and sweet flavor topped with glazed icing.,15 php
+Julie's Bakeshop,Ensaymada,Twirl bread with rich golden brown crust and yellowish crumb with an intense butter note and topped with sugar.,22 php
+Julie's Bakeshop,Ube Cheese de Sal,Soft and fluffy bread roll infused with rich ube (purple yam) flavor filled with creamy melted cheese. This sweet-savory pastry offers a delightful balance of earthy sweetness and salty indulgence making it a perfect treat for any time of the day.,13 php
+Julie's Bakeshop,Pandesal,This traditional "Pinoy" bread is considered as an all-time favorite. It is made bigger and fuller with just the right combination of sweet-fermented taste and coated with freshly prepared bread crumbs. A typical bread ideal for breakfast.,6 php
+Julie's Bakeshop,Everlasting,A lean type of bread with six cuts on the surface forming a flower-like appearance and topped with refined sugar.,13 php
+Julie's Bakeshop,Chicken Roll,Round bread coated with breadcrumbs filled with chicken strips. It has a sweet and sour filling taste profile.,15 php
+Julie's Bakeshop,Violet Cream Loaf,Intricate violet and white braided loaf topped with sweet creamy icing and grated cheese.,22 php
