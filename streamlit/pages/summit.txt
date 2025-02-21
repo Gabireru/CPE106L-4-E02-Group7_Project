@@ -1,0 +1,53 @@
+Summit,A&W Rootbeer,A refreshing root beer with a classic smooth and creamy taste.,45 php
+Summit,Big 250 Apple,A sweet and crisp apple-flavored juice drink.,14 php
+Summit,Big 250 Grapes,A juicy and flavorful grape drink perfect for any time of the day.,14 php
+Summit,Big 250 Mango,A tropical mango juice drink with a rich and refreshing taste.,14 php
+Summit,Big 250 Orange,A citrusy and tangy orange juice drink.,14 php
+Summit,BO's Coffee Hazelnut,A rich hazelnut-flavored coffee for a warm and energizing boost.,62 php
+Summit,BO's Coffee Macchiato,A bold and creamy macchiato coffee blend.,62 php
+Summit,BO’s Coffee Mocha,A delightful mocha-flavored coffee drink.,62 php
+Summit,BO's Coffee Latte,A smooth and creamy latte coffee blend.,62 php
+Summit,Cobra Berry,A berry-flavored energy drink to keep you energized throughout the day.,29 php
+Summit,Cobra Regular,A classic energy drink for an instant boost.,29 php
+Summit,Cobra Smart,A smart energy drink packed with essential nutrients.,29 php
+Summit,Coke Light,A lighter version of Coca-Cola with reduced sugar.,41 php
+Summit,Coke Regular Mismo,A classic Coca-Cola drink in a convenient size.,25 php
+Summit,Coke Regular,A refreshing and fizzy cola drink loved by many.,41 php
+Summit,Coke Zero,A sugar-free version of the classic Coca-Cola.,41 php
+Summit,Lucky Day Kopiko,A coffee drink with a bold and rich Kopiko taste.,30 php
+Summit,Minute Maid Orange,A natural orange juice drink packed with vitamin C.,30 php
+Summit,Nestea Apple,A refreshing apple-flavored iced tea drink.,38 php
+Summit,Nestea Lemon Ice,A cool and tangy lemon-flavored iced tea.,38 php
+Summit,Nestea Lemon,A classic lemon iced tea drink.,38 php
+Summit,Oishi Choco Chug,A creamy and chocolatey milk drink.,33 php
+Summit,Oishi Oaties Milk,A nutritious milk drink with added oats.,33 php
+Summit,Pascual Chocolate Milk Drink,A rich and creamy chocolate milk drink.,39 php
+Summit,Pascual Drinkable Yogurt Mango,A tangy and smooth mango-flavored yogurt drink.,45 php
+Summit,Pascual Drinkable Yogurt Plain,A classic plain yogurt drink.,45 php
+Summit,Pascual Drinkable Yogurt Strawberry,A fruity and creamy strawberry yogurt drink.,45 php
+Summit,Real Leaf Fruity Apple,A refreshing apple-flavored tea drink.,40 php
+Summit,Real Leaf Fruity Ice,A chilled and refreshing iced tea.,40 php
+Summit,Real Leaf Fruity Lemon,A lemon-infused refreshing tea drink.,40 php
+Summit,Real Leaf Honey Lemon,A honey and lemon-flavored refreshing tea drink.,41 php
+Summit,Real Leaf Honey Lychee,A lychee-infused tea drink with honey sweetness.,41 php
+Summit,Royal Grape,A fizzy and fruity grape soda drink.,25 php
+Summit,Royal Orange,A carbonated orange-flavored soda.,42 php
+Summit,RTO Mismo,A ready-to-drink beverage with a refreshing taste.,42 php
+Summit,Smart C Juice Drink Lemon Squeeze,A citrusy lemon juice drink packed with vitamin C.,42 php
+Summit,Smart C Juice Drink Orange Crush,A zesty and refreshing orange juice drink.,42 php
+Summit,Smart C Juice Drink Pomelo Grapefruit,A tangy pomelo and grapefruit juice drink.,42 php
+Summit,Sprite Mismo,A fizzy and lemon-lime soda drink.,25 php
+Summit,Sprite Regular,A classic lemon-lime carbonated soda.,41 php
+Summit,Summit Mineral Water 350ml,Pure and refreshing mineral water.,18 php
+Summit,Summit Mineral Water 500ml,Clean and crisp mineral water for hydration.,18 php
+Summit,Sunkist Zero Apple,A zero-sugar apple-flavored juice drink.,27 php
+Summit,Sunkist Zero Yogurt,A yogurt-infused beverage with a light taste.,27 php
+Summit,Vitamilk Banana,A nutritious banana-flavored soy milk drink.,36 php
+Summit,Vitamilk Chocolate,A rich and chocolatey soy milk drink.,36 php
+Summit,Vitamilk Double Chocolate,A double chocolate-flavored soy milk drink.,36 php
+Summit,Vitamilk Soymilk,A classic and nutritious soy milk drink.,36 php
+Summit,Vitamilk Strawberry,A strawberry-flavored soy milk drink.,36 php
+Summit,Zesto Calamansi,A tangy calamansi-flavored juice drink.,39 php
+Summit,Zesto Dalandan,A citrusy dalandan-flavored juice drink.,39 php
+Summit,Zesto Rootbeer,A fizzy and flavorful root beer drink.,39 php
+

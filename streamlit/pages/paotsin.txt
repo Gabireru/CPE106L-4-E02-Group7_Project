@@ -1,0 +1,37 @@
+Paotsin,Fried Shark's Fin,Crispy fried dumplings filled with flavorful shark's fin mixture, served with a special dipping sauce.,60 php
+Paotsin,Fried Shrimp Wanton,Golden fried wanton with a juicy shrimp filling, offering a crunchy bite with every piece.,60 php
+Paotsin,Fried Crab Wanton,Crispy dumpling filled with a rich crab mixture, perfect for seafood lovers.,60 php
+Paotsin,Fried Squid Wanton,Crunchy wanton pockets stuffed with seasoned squid, deep-fried to perfection.,60 php
+Paotsin,Fried Pork Dumpling,Savory dumplings filled with juicy pork, fried until golden brown and crispy.,60 php
+Paotsin,Fried Wanton,Classic fried wantons, crispy and delicious, best paired with Paotsin's signature sauces.,60 php
+Paotsin,Fried Scallop Wanton,Delicate scallop filling wrapped in a crispy wanton shell, bursting with seafood goodness.,60 php
+Paotsin,Fried Beef Wanton,Tender beef encased in a crispy wanton wrapper, deep-fried to a satisfying crunch.,60 php
+Paotsin,Fried Prawn Puff,Crunchy golden puff filled with fresh prawn, offering a delightful texture and taste.,60 php
+Paotsin,Fried Pot Sticker,Pan-fried dumplings with a juicy meat filling, boasting a crispy bottom and soft top.,60 php
+Paotsin,Fried Scallop Dumpling,Crispy fried dumplings packed with scallop goodness, served with a tangy sauce.,60 php
+Paotsin,Fried Beijing Chicken Dumpling,Classic Beijing-style chicken dumplings, deep-fried for a crunchy texture.,60 php
+Paotsin,Fried Spicy Fish,Spicy and crispy fish fillets served as a flavorful snack or meal.,60 php
+
+Paotsin,Steamed Shark's Fin,Steamed dumplings filled with a rich shark's fin mixture, soft and flavorful.,60 php
+Paotsin,Steamed Wanton,Tender steamed wantons filled with meat and spices, served in a light broth.,60 php
+Paotsin,Steamed Scallop Wanton,Steamed dumplings packed with fresh scallops, offering a soft and delicate taste.,60 php
+Paotsin,Steamed Shrimp Wanton,Juicy shrimp wantons steamed to perfection, bringing out their natural sweetness.,60 php
+Paotsin,Steamed Crab Wanton,Steamed dumplings filled with flavorful crab meat, a delight for seafood lovers.,60 php
+Paotsin,Steamed Squid Wanton,Tender squid wrapped in a soft dumpling skin, steamed for a light and fresh taste.,60 php
+Paotsin,Steamed Beef Wanton,Juicy beef-filled dumplings, steamed for a tender bite and rich flavor.,60 php
+Paotsin,Steamed Spicy Fish,Steamed fish fillet with a spicy kick, perfect for those who love bold flavors.,60 php
+
+Paotsin,Dumplings with Hainanese Rice,A hearty meal of dumplings paired with fragrant Hainanese-style rice.,85 php
+Paotsin,Dumplings with Lemak Rice,Savory dumplings served with rich and coconut-infused Lemak rice.,85 php
+Paotsin,Asian Chicken with Hainanese or Lemak Rice,Tender Asian-style chicken served with your choice of Hainanese or Lemak rice.,170 php
+Paotsin,Crackling Pork with Hainanese or Lemak Rice,Crispy and flavorful crackling pork paired with fragrant rice options.,180 php
+Paotsin,Crispy Porkchop with Hainanese or Lemak Rice,Golden fried porkchop served with Hainanese or Lemak rice for a satisfying meal.,210 php
+
+Paotsin,Steamed Dumplings with Laksa,A flavorful bowl of laksa soup paired with steamed dumplings.,130 php
+Paotsin,Asian Chicken with Laksa,Juicy Asian-style chicken served with rich and spicy laksa broth.,190 php
+Paotsin,Crackling Pork with Laksa,Crispy crackling pork served in a hearty and aromatic laksa broth.,190 php
+Paotsin,Crispy Porkchop with Laksa,A crispy porkchop paired with a bold and spicy laksa broth.,210 php
+
+Paotsin,Hainanese Rice,Fragrant and fluffy rice cooked in a flavorful Hainanese-style broth.,25 php
+Paotsin,Lemak Rice,Creamy coconut-infused rice with a rich and slightly sweet taste.,55 php
+
