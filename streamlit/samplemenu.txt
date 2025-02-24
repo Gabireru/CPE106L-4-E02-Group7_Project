@@ -27,38 +27,38 @@ Chef Bab's,Mushroom,A hearty vegetarian option with sauted mushrooms offering a 
 Chef Bab's,Tofu,A light and protein-packed sisig made with crispy tofu cubes mixed with onions chilies and a flavorful sauce.,80 php,10,Available
 Chef Bab's,Adobo Longganisa,A sweet garlicky and smoky sisig featuring crumbled longganisa infused with rich adobo flavors.,85 php,10,Available
 Chef Bab's,Pusit,A seafood-inspired sisig with tender grilled squid mixed with onions and a tangy spicy dressing.,103 php,10,Available
-Angel's Pizza,Whole Box-Creamy Spinach Dip,A rich and creamy spinach dip topped with gooey cheese, making every bite indulgent and flavorful.,715 php,10,Available
+Angel's Pizza,Whole Box-Creamy Spinach Dip,A rich and creamy spinach dip topped with gooey cheese making every bite indulgent and flavorful.,715 php,10,Available
 Angel's Pizza,Whole Box-Angel's Pepperoni,Classic pepperoni pizza with a generous layer of mozzarella cheese and zesty tomato sauce.,665 php,10,Available
-Angel's Pizza,Whole Box-Chicken Aloha,A delightful combination of tender chicken, sweet pineapple, and creamy cheese.,715 php,10,Available
-Angel's Pizza,Whole Box-Angel's Aloha,A tropical-inspired pizza with ham, pineapple, and a blend of melted cheeses.,620 php,10,Available
+Angel's Pizza,Whole Box-Chicken Aloha,A delightful combination of tender chicken sweet pineapple and creamy cheese.,715 php,10,Available
+Angel's Pizza,Whole Box-Angel's Aloha,A tropical-inspired pizza with ham pineapple and a blend of melted cheeses.,620 php,10,Available
 Angel's Pizza,Whole Box-Toppings So Bongga!,A fully loaded pizza packed with a variety of flavorful toppings for an ultimate experience.,715 php,10,Available
-Angel's Pizza,Whole Box-Halleluia Mozzarella,A cheese lover’s dream, featuring layers of gooey mozzarella on a perfectly baked crust.,715 php,10,Available
+Angel's Pizza,Whole Box-Halleluia Mozzarella,A cheese lover’s dream featuring layers of gooey mozzarella on a perfectly baked crust.,715 php,10,Available
 Angel's Pizza,Whole Box-Cheesy Burger,A unique twist combining the flavors of a classic cheeseburger with a delicious pizza base.,665 php,10,Available
-Angel's Pizza,Whole Box-All Meat,An irresistible meat-lover’s pizza loaded with pepperoni, ham, bacon, and beef.,665 php,10,Available
+Angel's Pizza,Whole Box-All Meat,An irresistible meat-lover’s pizza loaded with pepperoni ham bacon and beef.,665 php,10,Available
 Angel's Pizza,Whole Box-Creamy Garlic & 5 Cheese,A heavenly blend of five cheeses with a rich and savory garlic cream sauce.,665 php,10,Available
-Angel's Pizza,Pizza Slice-Creamy Spinach Dip,A single slice of creamy spinach dip pizza, rich in flavor with a cheesy finish.,60 php,80,Available
+Angel's Pizza,Pizza Slice-Creamy Spinach Dip,A single slice of creamy spinach dip pizza rich in flavor with a cheesy finish.,60 php,80,Available
 Angel's Pizza,Pizza Slice-Angel's Pepperoni,A classic slice of pepperoni pizza with a crispy crust and gooey cheese.,60 php,80,Available
-Angel's Pizza,Pizza Slice-Chicken Aloha,A single slice featuring tender chicken, pineapple, and melted cheese.,60 php,80,Available
-Angel's Pizza,Pizza Slice-Angel's Aloha,A tropical-flavored slice with ham, pineapple, and a cheesy blend.,60 php,80,Available
+Angel's Pizza,Pizza Slice-Chicken Aloha,A single slice featuring tender chicken pineapple and melted cheese.,60 php,80,Available
+Angel's Pizza,Pizza Slice-Angel's Aloha,A tropical-flavored slice with ham pineapple and a cheesy blend.,60 php,80,Available
 Angel's Pizza,Pizza Slice-Toppings So Bongga!,A fully loaded slice packed with a variety of fresh and savory toppings.,60 php,80,Available
 Angel's Pizza,Pizza Slice-Halleluia Mozzarella,A single slice of mozzarella-filled goodness for cheese enthusiasts.,60 php,80,Available
 Angel's Pizza,Pizza Slice-Cheesy Burger,A burger-inspired pizza slice featuring a cheesy and meaty flavor.,60 php,80,Available
 Angel's Pizza,Pizza Slice-All Meat,A meat lover’s dream slice with a mix of flavorful meats on a crispy crust.,60 php,80,Available
-Angel's Pizza,Pizza Slice-Creamy Garlic & 5 Cheese,A garlic-infused, five-cheese blend pizza slice for ultimate cheesy satisfaction.,60 php,80,Available
-Angel's Pizza,Classic Spaghetti,A comforting pasta dish with a rich, meaty tomato sauce topped with cheese.,120 php,20,Available
+Angel's Pizza,Pizza Slice-Creamy Garlic & 5 Cheese,A garlic-infused five-cheese blend pizza slice for ultimate cheesy satisfaction.,60 php,80,Available
+Angel's Pizza,Classic Spaghetti,A comforting pasta dish with a rich meaty tomato sauce topped with cheese.,120 php,20,Available
 Angel's Pizza,Carbonara,A creamy and savory white sauce pasta with bacon and parmesan cheese.,120 php,20,Available
-Angel's Pizza,Mac & Cheese,Classic macaroni pasta coated in a creamy, cheesy sauce for ultimate comfort.,145 php,20,Available
-Angel's Pizza,Cheesy Lasagna,Layered pasta baked with a rich meat sauce, creamy cheese, and béchamel.,165 php,20,Available
-Nescafe,Cone Ice Cream,A classic soft-serve ice cream served in a crispy cone for a quick, sweet treat.,15 php,150,Available
-Nescafe,Cup Ice Cream,A creamy and refreshing ice cream served in a convenient cup, perfect for on-the-go.,25 php,150,Available
+Angel's Pizza,Mac & Cheese,Classic macaroni pasta coated in a creamy cheesy sauce for ultimate comfort.,145 php,20,Available
+Angel's Pizza,Cheesy Lasagna,Layered pasta baked with a rich meat sauce creamy cheese and béchamel.,165 php,20,Available
+Nescafe,Cone Ice Cream,A classic soft-serve ice cream served in a crispy cone for a quick sweet treat.,15 php,150,Available
+Nescafe,Cup Ice Cream,A creamy and refreshing ice cream served in a convenient cup perfect for on-the-go.,25 php,150,Available
 Nescafe,1 Topping Ice Cream,A smooth and delicious ice cream topped with your choice of a single flavorful topping.,30 php,150,Available
 Nescafe,3 Toppings Ice Cream,A delightful ice cream treat with three tasty toppings for extra indulgence.,40 php,150,Available
-Nescafe,Milo Freeze Plain 12 oz.,A refreshing and chocolatey Milo Freeze, blended to perfection in a 12 oz. cup.,40 php,100,Available
+Nescafe,Milo Freeze Plain 12 oz.,A refreshing and chocolatey Milo Freeze blended to perfection in a 12 oz. cup.,40 php,100,Available
 Nescafe,Milo Freeze Plain 16 oz.,A rich and icy Milo Freeze served in a 16 oz. cup for an extra satisfying treat.,50 php,100,Available
-Nescafe,Milo Freeze Plain 22 oz.,A large and creamy 22 oz. Milo Freeze, perfect for chocolate lovers.,70 php,100,Available
-Nescafe,Nescafe Freeze Plain 12 oz.,A smooth and creamy coffee-based Nescafe Freeze, served in a 12 oz. cup.,40 php,100,Available
-Nescafe,Nescafe Freeze Plain 16 oz.,A refreshing Nescafe Freeze in a 16 oz. cup, blending rich coffee and icy goodness.,50 php,100,Available
-Nescafe,Nescafe Freeze Plain 22 oz.,A large 22 oz. Nescafe Freeze, packed with bold coffee flavor and creamy texture.,70 php,100,Available
+Nescafe,Milo Freeze Plain 22 oz.,A large and creamy 22 oz. Milo Freeze perfect for chocolate lovers.,70 php,100,Available
+Nescafe,Nescafe Freeze Plain 12 oz.,A smooth and creamy coffee-based Nescafe Freeze served in a 12 oz. cup.,40 php,100,Available
+Nescafe,Nescafe Freeze Plain 16 oz.,A refreshing Nescafe Freeze in a 16 oz. cup blending rich coffee and icy goodness.,50 php,100,Available
+Nescafe,Nescafe Freeze Plain 22 oz.,A large 22 oz. Nescafe Freeze packed with bold coffee flavor and creamy texture.,70 php,100,Available
 Whimsy Whisk,Ottogi Real Cheese,Creamy and rich cheese ramen with a smooth and savory flavor,120 php,Available
 Whimsy Whisk,Jin Kimchi Ramen,Tangy and spicy kimchi-infused broth with chewy noodles,95 php,Available
 Whimsy Whisk,Jin Ramen Spicy,Hot and flavorful ramen with a bold spicy kick,95 php,Available
