@@ -1,9 +1,29 @@
-Julie's Bakeshop,Violet Cream Loaf,Intricate violet and white braided loaf topped with sweet creamy icing and grated cheese.,22 php
-Julie's Bakeshop,Choco German,With a creamy choco filling and topped with a sugary-margarine topping to complete the taste.,13 php
-Julie's Bakeshop,Cinnamon Bun,Bread Bun filled with sugar and cinnamon which provide a robust and sweet flavor topped with glazed icing.,15 php
-Julie's Bakeshop,Ensaymada,Twirl bread with rich golden brown crust and yellowish crumb with an intense butter note and topped with sugar.,22 php
-Julie's Bakeshop,Ube Cheese de Sal,Soft and fluffy bread roll infused with rich ube (purple yam) flavor filled with creamy melted cheese. This sweet-savory pastry offers a delightful balance of earthy sweetness and salty indulgence making it a perfect treat for any time of the day.,13 php
-Julie's Bakeshop,Pandesal,This traditional "Pinoy" bread is considered as an all-time favorite. It is made bigger and fuller with just the right combination of sweet-fermented taste and coated with freshly prepared bread crumbs. A typical bread ideal for breakfast.,6 php
-Julie's Bakeshop,Everlasting,A lean type of bread with six cuts on the surface forming a flower-like appearance and topped with refined sugar.,13 php
-Julie's Bakeshop,Chicken Roll,Round bread coated with breadcrumbs filled with chicken strips. It has a sweet and sour filling taste profile.,15 php
-Julie's Bakeshop,Violet Cream Loaf,Intricate violet and white braided loaf topped with sweet creamy icing and grated cheese.,22 php
+Julie's Bakeshop,Violet Cream Loaf,Intricate violet and white braided loaf topped with sweet creamy icing and grated cheese.,22 php,7,Available
+Julie's Bakeshop,Choco German,With a creamy choco filling and topped with a sugary-margarine topping to complete the taste.,13 php,3,Available
+Julie's Bakeshop,Cinnamon Bun,Bread Bun filled with sugar and cinnamon which provide a robust and sweet flavor topped with glazed icing.,13 php,10,Available
+Julie's Bakeshop,Ensaymada Cheese,Twirl bread with rich golden brown crust and yellowish crumb with an intense butter note and topped with sugar.,22 php,10,Available
+Julie's Bakeshop,Ube Cheese de Sal,Soft and fluffy bread roll infused with rich ube (purple yam) flavor filled with creamy melted cheese. This sweet-savory pastry offers a delightful balance of earthy sweetness and salty indulgence making it a perfect treat for any time of the day.,13 php,10,Available
+Julie's Bakeshop,Pandesal,This traditional "Pinoy" bread is considered as an all-time favorite. It is made bigger and fuller with just the right combination of sweet-fermented taste and coated with freshly prepared bread crumbs. A typical bread ideal for breakfast.,6 php,10,Available
+Julie's Bakeshop,Everlasting,A lean type of bread with six cuts on the surface forming a flower-like appearance and topped with refined sugar.,13 php,10,Available
+Julie's Bakeshop,Chicken Meat Roll,Round bread coated with breadcrumbs filled with chicken strips. It has a sweet and sour filling taste profile.,20 php,10,Available
+Julie's Bakeshop,Pan de coco,The traditional afternoon sweet delight made from grated coco then cooked to a sugar concoction locally known as "bukayo" makes this bread unique and truly Pinoy. It has a distinct gritty mouthfeel imparted by the grated coco.,13 php,10,Available
+Julie's Bakeshop,Spanish Bread,A crescent-shaped roll that is soft with a sweet-creamy moist and rich mixture of filling and coated with bread crumbs.,13 php,10,Available
+Julie's Bakeshop,Choco Pandesal,Choco Pandesal is a delicious twist on the classic Filipino bread roll featuring a soft fluffy texture with a rich chocolate flavor. Perfectly balanced between sweet and slightly savory it's an irresistible treat for breakfast or snacks!,13 php,10,Available
+Julie's Bakeshop,Hopia,Hopia is a popular Filipino pastry with a flaky crust and a sweet flavorful filling typically made with mung bean (monggo) ube or pork floss. This bite-sized treat is perfect for snacking and pairs well with coffee or tea!,10 php,10,Available
+Julie's Bakeshop,Fig pie,Fig pie is a delightful dessert featuring a buttery flaky crust filled with a rich sweet fig filling. Its natural caramel-like sweetness and chewy texture make it a comforting treat perfect for any occasion!,13 php,10,Available
+Julie's Bakeshop,Ensaymada Mongo,Ensaymada mongo is a soft sweet bread topped with butter and sugar filled with smooth mung bean paste. This fluffy and rich pastry is perfect for breakfast or an afternoon snack,22 php,10,Available
+Julie's Bakeshop,Ube bar,Ube bar is a soft moist bread coated with a sweet buttery ube glaze. Its vibrant purple color and rich ube flavor make it a delicious treat for any time of the day,22 php,10,Available
+Julie's Bakeshop,Chocolate Crinkles,Chocolate crinkles are soft fudgy cookies with a crackly powdered sugar coating. Their rich chocolate flavor and chewy texture make them a perfect indulgent treat,13 php,10,Available
+Julie's Bakeshop,Binangkal,Binangkal is a crunchy deep-fried bread coated with sesame seeds. Its golden crisp exterior and soft slightly sweet inside make it a satisfying snack best enjoyed with coffee or tea,13 php,10,Available
+Chef Bab's,Crispy Pork,Crispy pork is a flavorful dish with golden crunchy skin and tender juicy meat. Its rich savory taste makes it a perfect pairing with rice or dipping sauces,85 php,10,Available
+Chef Bab's,Pork Dinakdakan,Pork dinakdakan is a creamy savory Ilocano dish made with grilled pork parts mixed with onions chilies and a tangy calamansi-infused dressing. Its rich smoky flavor and creamy texture make it a bold and delicious dish,85 php,10,Available
+Chef Bab's,Chicken,Chicken is a versatile dish that can be fried grilled or stewed to bring out its juicy tender meat and rich savory flavor. It pairs perfectly with rice sauces or vegetables for a satisfying meal,85 php,10,Available
+Chef Bab's,Beef,Beef is a hearty flavorful meat that can be grilled stewed or stir-fried to bring out its rich tender texture. It pairs well with rice vegetables or sauces for a delicious and satisfying meal,90 php,10,Available
+Chef Bab's,Bangus,A flavorful take on sisig using crispy flaked bangus mixed with onions and chilies for a light yet savory dish.,90 php,10,Available
+Chef Bab's,Bacon,A rich and smoky sisig variation made with crispy bacon bits tossed in a creamy savory sauce.,90 php,10,Available
+Chef Bab's,Gambas,A spicy seafood twist on sisig featuring plump shrimp sauted in garlic and chilies for a bold kick.,103 php,10,Available
+Chef Bab's,Spam,A unique take on sisig with crispy diced Spam mixed with onions and a tangy savory dressing.,90 php,10,Available
+Chef Bab's,Mushroom,A hearty vegetarian option with sauted mushrooms offering a meaty texture and deep umami flavor.,80 php,10,Available
+Chef Bab's,Tofu,A light and protein-packed sisig made with crispy tofu cubes mixed with onions chilies and a flavorful sauce.,80 php,10,Available
+Chef Bab's,Adobo Longganisa,A sweet garlicky and smoky sisig featuring crumbled longganisa infused with rich adobo flavors.,85 php,10,Available
+Chef Bab's,Pusit,A seafood-inspired sisig with tender grilled squid mixed with onions and a tangy spicy dressing.,103 php,10,Available
