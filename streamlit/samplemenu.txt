@@ -59,3 +59,47 @@ Nescafe,Milo Freeze Plain 22 oz.,A large and creamy 22 oz. Milo Freeze, perfect 
 Nescafe,Nescafe Freeze Plain 12 oz.,A smooth and creamy coffee-based Nescafe Freeze, served in a 12 oz. cup.,40 php,100,Available
 Nescafe,Nescafe Freeze Plain 16 oz.,A refreshing Nescafe Freeze in a 16 oz. cup, blending rich coffee and icy goodness.,50 php,100,Available
 Nescafe,Nescafe Freeze Plain 22 oz.,A large 22 oz. Nescafe Freeze, packed with bold coffee flavor and creamy texture.,70 php,100,Available
+Whimsy Whisk,Ottogi Real Cheese,Creamy and rich cheese ramen with a smooth and savory flavor,120 php,Available
+Whimsy Whisk,Jin Kimchi Ramen,Tangy and spicy kimchi-infused broth with chewy noodles,95 php,Available
+Whimsy Whisk,Jin Ramen Spicy,Hot and flavorful ramen with a bold spicy kick,95 php,Available
+Whimsy Whisk,Jin Ramen Mild,Smooth and mildly spiced broth with soft chewy noodles,95 php,Available
+Whimsy Whisk,Paldo JJajameon,Thick and chewy noodles coated in rich black bean sauce,160 php,Available
+Whimsy Whisk,Crab Ramen,Savory crab-flavored broth with a deep umami taste,110 php,Available
+Whimsy Whisk,Bodle Cheese Stir Fry,Creamy cheese sauce mixed with stir-fried ramen noodles,110 php,Available
+Whimsy Whisk,Jin Snack Ramen,Light and flavorful ramen perfect for a quick snack,95 php,Available
+Whimsy Whisk,Jin yeul Ramen,Extra spicy Jin Ramen with a deep and bold heat,125 php,Available
+Whimsy Whisk,Jin JJambong,Spicy seafood-flavored ramen with a rich smoky broth,140 php,Available
+Whimsy Whisk,Jin Sesame Ramen,Nutty and aromatic ramen with toasted sesame flavor,110 php,Available
+Whimsy Whisk,Paldo Bibimyeon,Cold and chewy noodles in a sweet and spicy sauce,130 php,Available
+Whimsy Whisk,Black Shin Ramyun,Premium version of Shin Ramyun with richer beef broth,145 php,Available
+Whimsy Whisk,Shin Ramyun,Classic spicy beef ramen with a deep umami broth,105 php,Available
+Whimsy Whisk,Spicy Beef Soup,Bold and hearty beef soup with a fiery kick,120 php,Available
+Whimsy Whisk,Beef Sari Gomtang,Light and milky beef bone soup with tender noodles,120 php,Available
+Whimsy Whisk,Soon Veggie,Vegetable-based ramen with a mild and comforting taste,120 php,Available
+Whimsy Whisk,Neoguri Ramen,Thick and chewy noodles in a rich seafood broth,120 php,Available
+Whimsy Whisk,Nongshim Chapagetti,Black bean ramen with a slightly sweet and savory taste,120 php,Available
+Whimsy Whisk,Chapagetti Spicy,Spicy version of Chapagetti with a bold kick,130 php,Available
+Whimsy Whisk,Beef Bulgogi,Savory and slightly sweet beef bulgogi-flavored ramen,110 php,Available
+Whimsy Whisk,Black Bean Stir Fry,Rich black bean sauce stir-fried with thick noodles,150 php,Available
+Whimsy Whisk,Anchovy Ramen,Deep umami anchovy broth with a light and savory taste,120 php,Available
+Whimsy Whisk,Samyang Ramen,Classic Samyang ramen with a balanced spicy flavor,95 php,Available
+Whimsy Whisk,Buldak Cheese,Creamy cheese blended with fiery buldak spice,125 php,Available
+Whimsy Whisk,Buldak Carbonara,Spicy carbonara-style ramen with a creamy finish,125 php,Available
+Whimsy Whisk,Buldak Original,Signature ultra-spicy ramen with bold flavors,135 php,Available
+Whimsy Whisk,Buldak x2,Extra spicy version of Buldak for intense heat lovers,135 php,Available
+Whimsy Whisk,Buldak Quattro,Four-cheese blend mixed with Buldak’s fiery spice,135 php,Available
+Whimsy Whisk,Buldak Creamy Carbonara,Spicy and creamy carbonara ramen with a smooth texture,135 php,Available
+Whimsy Whisk,Buldak 3x Spicy,Triple the heat of original Buldak for extreme spice,135 php,Available
+Whimsy Whisk,Buldak Rose,Creamy tomato-based Buldak with a slightly sweet kick,135 php,Available
+Whimsy Whisk,Buldak Jjang,Black bean-style Buldak with a smoky and spicy twist,135 php,Available
+Whimsy Whisk,Buldak Yakisoba,Savory stir-fried style Buldak with rich sauce,135 php,Available
+Jamaican Patty,Chicken Stew,Flaky golden crust filled with tender chicken slow-cooked in rich flavorful stew,75 php,Available
+Jamaican Patty Beefy Tomato,Savory ground beef simmered in a tasty tomato sauce wrapped in a crisp pastry shell,75 php,Available
+Jamaican Patty,Cheesy Beefy Tomato,Juicy beef in zesty tomato sauce with creamy melted cheese inside a crisp pastry,75 php,Available
+Jamaican Patty,Beefy Mushroom,Hearty beef and mushrooms cooked in a rich sauce packed inside a golden flaky crust,75 php,Available
+Jamaican Patty,Beef Pinatubo,Spicy beef filling bursting with heat and flavor sealed in a crisp golden pastry,75 php,Available
+Jamaican Patty,Spicy Tuna,Flaky tuna blended with bold spices wrapped in a light crisp crust for a fiery kick,75 php,Available
+Jamaican Patty,Cheesy Tuna,Tuna chunks mixed with creamy cheese inside a crisp flaky crust for a delicious bite,75 php,Available
+Jamaican Patty,De Original Beef,Classic seasoned beef filling inside a golden flaky pastry for an authentic taste,75 php,Available
+Jamaican Patty,Cheesy Beef Pinatubo,Spicy beef packed with melted cheese inside a crispy golden shell,75 php,Available
+Jamaican Patty,Cheesy Beef,Juicy beef blended with melted cheese inside a crispy flaky pastry shell,75 php,Available
