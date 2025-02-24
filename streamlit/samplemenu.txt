@@ -218,6 +218,13 @@ Summit,Vitamilk Strawberry,A strawberry-flavored soy milk drink,36 php,5,Availab
 Summit,Zesto Calamansi,A tangy calamansi-flavored juice drink,39 php,50,Available
 Summit,Zesto Dalandan,A citrusy dalandan-flavored juice drink,39 php,45,Available
 Summit,Zesto Rootbeer,A fizzy and flavorful root beer drink,39 php,40,Available
-
-
-
+Varda,Quarter Pounder Burger,Quarter Pounder Patty in Legit Varda Sauce,45 php,Available
+Varda,Terror Prof Burger,Quarter Pounder Patty in Famous BBQ Sauce,75 php,Available
+Varda,Dean's Burger,Quarter Pounder Patty in Melted Cheese and Chive Sauce,95 php,Available
+Varda,RK's Burger,Quarter Pounder Patty with Bacon in Legit Varda Sauce,110 php,Available
+Varda,Campus Crush Burger,Quarter Pounder Patty with Cheesy Mushroom,110 php,Available
+Varda,Lodi Burger (Single Patty),Quarter Pounder Patty in our signature Chili Sauce,95 php,Available
+Varda,Lodi Burger (Double Patty),Double Quarter Pounder Patty in our signature Chili Sauce,125 php,Available
+Varda,Varsity Burger,Double Quarter Pounder Patty,145 php,Available
+Varda,Midsayap Burger,Double Quarter Pounder Patty in Garlic Sauce,170 php,Available
+Varda,North Cot Challenge Burger,Triple Quarter Pounder Patty with Bacon,220 php,Available
