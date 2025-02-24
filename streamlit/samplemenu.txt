@@ -103,3 +103,121 @@ Jamaican Patty,Cheesy Tuna,Tuna chunks mixed with creamy cheese inside a crisp f
 Jamaican Patty,De Original Beef,Classic seasoned beef filling inside a golden flaky pastry for an authentic taste,75 php,Available
 Jamaican Patty,Cheesy Beef Pinatubo,Spicy beef packed with melted cheese inside a crispy golden shell,75 php,Available
 Jamaican Patty,Cheesy Beef,Juicy beef blended with melted cheese inside a crispy flaky pastry shell,75 php,Available
+Belgian Waffles,Plain Waffle,A simple and classic waffle with a crispy golden texture,40 php,50,Available
+Belgian Waffles,Chocolate Waffle,A rich and indulgent chocolate-flavored waffle,55 php,45,Available
+Belgian Waffles,Cheese Spread Waffle,A waffle topped with creamy and savory cheese spread,55 php,40,Available
+Belgian Waffles,Peanut Butter Waffle,A delightful waffle spread with smooth peanut butter,55 php,35,Available
+Belgian Waffles,Caramel Waffle,A sweet and buttery caramel-flavored waffle,55 php,30,Available
+Belgian Waffles,Strawberry Waffle,A waffle topped with sweet and tangy strawberry filling,60 php,25,Available
+Belgian Waffles,Blueberry Waffle,A waffle with a delicious blueberry topping,60 php,20,Available
+Belgian Waffles,Custard Waffle,A soft and creamy custard-filled waffle,60 php,18,Available
+Belgian Waffles,Mango Peach Waffle,A tropical delight with mango and peach toppings,60 php,15,Available
+Belgian Waffles,Hazelnut Waffle,A rich and nutty hazelnut-flavored waffle,65 php,12,Available
+Belgian Waffles,Cream Cheese Waffle,A waffle topped with smooth and tangy cream cheese,65 php,10,Available
+Belgian Waffles,French Butter Maple Waffle,A classic waffle with French butter and maple syrup,60 php,30,Available
+Belgian Waffles,French Butter Caramel Waffle,A waffle with French butter and sweet caramel,65 php,28,Available
+Belgian Waffles,Banana Chocolate Waffle,A waffle layered with banana slices and chocolate drizzle,65 php,25,Available
+Belgian Waffles,Banana Caramel Waffle,A delicious waffle with banana and caramel topping,65 php,22,Available
+Belgian Waffles,Choco Peanut Butter Waffle,A combination of chocolate and peanut butter in one waffle,70 php,18,Available
+Belgian Waffles,Chocolate Custard Waffle,A waffle filled with creamy custard and chocolate drizzle,70 php,15,Available
+Belgian Waffles,Cookies & Cream Waffle,A delightful waffle with crushed cookies and cream,70 php,12,Available
+Belgian Waffles,Blueberry Banana Waffle,A fruity waffle with blueberry and banana toppings,70 php,10,Available
+Belgian Waffles,Strawberry Banana Waffle,A waffle with fresh strawberry and banana slices,70 php,8,Available
+Belgian Waffles,Chocolate Hazelnut Waffle,A waffle filled with chocolate and rich hazelnut spread,80 php,5,Available
+Belgian Waffles,Brownie Fudge Waffle,A waffle with a dense and fudgy brownie topping,60 php,18,Available
+Belgian Waffles,Brownie Custard Waffle,A waffle with a combination of brownie and custard,70 php,15,Available
+Belgian Waffles,Brownie Fudge Banana Waffle,A waffle topped with brownie and banana slices,70 php,12,Available
+Belgian Waffles,Brownie Cream Cheese Waffle,A rich waffle with brownie and cream cheese topping,70 php,10,Available
+Belgian Waffles,S'mores Waffle,A waffle with melted marshmallow chocolate and graham crackers,85 php,5,Available
+Belgian Waffles,Hot Coffee,A warm and aromatic brewed coffee,65 php,30,Available
+Belgian Waffles,Iced Coffee,A refreshing cold coffee served over ice,75 php,28,Available
+Belgian Waffles,Hot Chocolate,A rich and creamy hot chocolate drink,65 php,25,Available
+Belgian Waffles,Iced Chocolate,A chilled chocolate drink with a smooth and creamy taste,75 php,20,Available
+Belgian Waffles,Iced Tea,A classic and refreshing iced tea beverage,60 php,35,Available
+Paotsin,Fried Shark's Fin,Crispy fried dumplings filled with flavorful shark's fin mixture served with a special dipping sauce,60 php,50,Available
+Paotsin,Fried Shrimp Wanton,Golden fried wanton with a juicy shrimp filling offering a crunchy bite with every piece,60 php,45,Available
+Paotsin,Fried Crab Wanton,Crispy dumpling filled with a rich crab mixture perfect for seafood lovers,60 php,40,Available
+Paotsin,Fried Squid Wanton,Crunchy wanton pockets stuffed with seasoned squid deep-fried to perfection,60 php,35,Available
+Paotsin,Fried Pork Dumpling,Savory dumplings filled with juicy pork fried until golden brown and crispy,60 php,30,Available
+Paotsin,Fried Wanton,Classic fried wantons crispy and delicious best paired with Paotsin's signature sauces,60 php,25,Available
+Paotsin,Fried Scallop Wanton,Delicate scallop filling wrapped in a crispy wanton shell bursting with seafood goodness,60 php,20,Available
+Paotsin,Fried Beef Wanton,Tender beef encased in a crispy wanton wrapper deep-fried to a satisfying crunch,60 php,18,Available
+Paotsin,Fried Prawn Puff,Crunchy golden puff filled with fresh prawn offering a delightful texture and taste,60 php,15,Available
+Paotsin,Fried Pot Sticker,Pan-fried dumplings with a juicy meat filling boasting a crispy bottom and soft top,60 php,12,Available
+Paotsin,Fried Scallop Dumpling,Crispy fried dumplings packed with scallop goodness served with a tangy sauce,60 php,10,Available
+Paotsin,Fried Beijing Chicken Dumpling,Classic Beijing-style chicken dumplings deep-fried for a crunchy texture,60 php,8,Available
+Paotsin,Fried Spicy Fish,Spicy and crispy fish fillets served as a flavorful snack or meal,60 php,5,Available
+Paotsin,Steamed Shark's Fin,Steamed dumplings filled with a rich shark's fin mixture soft and flavorful,60 php,40,Available
+Paotsin,Steamed Wanton,Tender steamed wantons filled with meat and spices served in a light broth,60 php,35,Available
+Paotsin,Steamed Scallop Wanton,Steamed dumplings packed with fresh scallops offering a soft and delicate taste,60 php,30,Available
+Paotsin,Steamed Shrimp Wanton,Juicy shrimp wantons steamed to perfection bringing out their natural sweetness,60 php,25,Available
+Paotsin,Steamed Crab Wanton,Steamed dumplings filled with flavorful crab meat a delight for seafood lovers,60 php,20,Available
+Paotsin,Steamed Squid Wanton,Tender squid wrapped in a soft dumpling skin steamed for a light and fresh taste,60 php,18,Available
+Paotsin,Steamed Beef Wanton,Juicy beef-filled dumplings steamed for a tender bite and rich flavor,60 php,15,Available
+Paotsin,Steamed Spicy Fish,Steamed fish fillet with a spicy kick perfect for those who love bold flavors,60 php,12,Available
+Paotsin,Dumplings with Hainanese Rice,A hearty meal of dumplings paired with fragrant Hainanese-style rice,85 php,25,Available
+Paotsin,Dumplings with Lemak Rice,Savory dumplings served with rich and coconut-infused Lemak rice,85 php,22,Available
+Paotsin,Asian Chicken with Hainanese or Lemak Rice,Tender Asian-style chicken served with your choice of Hainanese or Lemak rice,170 php,18,Available
+Paotsin,Crackling Pork with Hainanese or Lemak Rice,Crispy and flavorful crackling pork paired with fragrant rice options,180 php,15,Available
+Paotsin,Crispy Porkchop with Hainanese or Lemak Rice,Golden fried porkchop served with Hainanese or Lemak rice for a satisfying meal,210 php,10,Available
+Paotsin,Steamed Dumplings with Laksa,A flavorful bowl of laksa soup paired with steamed dumplings,130 php,20,Available
+Paotsin,Asian Chicken with Laksa,Juicy Asian-style chicken served with rich and spicy laksa broth,190 php,15,Available
+Paotsin,Crackling Pork with Laksa,Crispy crackling pork served in a hearty and aromatic laksa broth,190 php,12,Available
+Paotsin,Crispy Porkchop with Laksa,A crispy porkchop paired with a bold and spicy laksa broth,210 php,10,Available
+Paotsin,Hainanese Rice,Fragrant and fluffy rice cooked in a flavorful Hainanese-style broth,25 php,50,Available
+Paotsin,Lemak Rice,Creamy coconut-infused rice with a rich and slightly sweet taste,55 php,40,Available
+Summit,A&W Rootbeer,A refreshing root beer with a classic smooth and creamy taste,45 php,50,Available
+Summit,Big 250 Apple,A sweet and crisp apple-flavored juice drink,14 php,45,Available
+Summit,Big 250 Grapes,A juicy and flavorful grape drink perfect for any time of the day,14 php,40,Available
+Summit,Big 250 Mango,A tropical mango juice drink with a rich and refreshing taste,14 php,35,Available
+Summit,Big 250 Orange,A citrusy and tangy orange juice drink,14 php,30,Available
+Summit,BO's Coffee Hazelnut,A rich hazelnut-flavored coffee for a warm and energizing boost,62 php,25,Available
+Summit,BO's Coffee Macchiato,A bold and creamy macchiato coffee blend,62 php,20,Available
+Summit,BO’s Coffee Mocha,A delightful mocha-flavored coffee drink,62 php,18,Available
+Summit,BO's Coffee Latte,A smooth and creamy latte coffee blend,62 php,15,Available
+Summit,Cobra Berry,A berry-flavored energy drink to keep you energized throughout the day,29 php,12,Available
+Summit,Cobra Regular,A classic energy drink for an instant boost,29 php,10,Available
+Summit,Cobra Smart,A smart energy drink packed with essential nutrients,29 php,8,Available
+Summit,Coke Light,A lighter version of Coca-Cola with reduced sugar,41 php,5,Available
+Summit,Coke Regular Mismo,A classic Coca-Cola drink in a convenient size,25 php,50,Available
+Summit,Coke Regular,A refreshing and fizzy cola drink loved by many,41 php,45,Available
+Summit,Coke Zero,A sugar-free version of the classic Coca-Cola,41 php,40,Available
+Summit,Lucky Day Kopiko,A coffee drink with a bold and rich Kopiko taste,30 php,35,Available
+Summit,Minute Maid Orange,A natural orange juice drink packed with vitamin C,30 php,30,Available
+Summit,Nestea Apple,A refreshing apple-flavored iced tea drink,38 php,25,Available
+Summit,Nestea Lemon Ice,A cool and tangy lemon-flavored iced tea,38 php,20,Available
+Summit,Nestea Lemon,A classic lemon iced tea drink,38 php,18,Available
+Summit,Oishi Choco Chug,A creamy and chocolatey milk drink,33 php,15,Available
+Summit,Oishi Oaties Milk,A nutritious milk drink with added oats,33 php,12,Available
+Summit,Pascual Chocolate Milk Drink,A rich and creamy chocolate milk drink,39 php,10,Available
+Summit,Pascual Drinkable Yogurt Mango,A tangy and smooth mango-flavored yogurt drink,45 php,8,Available
+Summit,Pascual Drinkable Yogurt Plain,A classic plain yogurt drink,45 php,5,Available
+Summit,Pascual Drinkable Yogurt Strawberry,A fruity and creamy strawberry yogurt drink,45 php,50,Available
+Summit,Real Leaf Fruity Apple,A refreshing apple-flavored tea drink,40 php,45,Available
+Summit,Real Leaf Fruity Ice,A chilled and refreshing iced tea,40 php,40,Available
+Summit,Real Leaf Fruity Lemon,A lemon-infused refreshing tea drink,40 php,35,Available
+Summit,Real Leaf Honey Lemon,A honey and lemon-flavored refreshing tea drink,41 php,30,Available
+Summit,Real Leaf Honey Lychee,A lychee-infused tea drink with honey sweetness,41 php,25,Available
+Summit,Royal Grape,A fizzy and fruity grape soda drink,25 php,20,Available
+Summit,Royal Orange,A carbonated orange-flavored soda,42 php,15,Available
+Summit,RTO Mismo,A ready-to-drink beverage with a refreshing taste,42 php,10,Available
+Summit,Smart C Juice Drink Lemon Squeeze,A citrusy lemon juice drink packed with vitamin C,42 php,8,Available
+Summit,Smart C Juice Drink Orange Crush,A zesty and refreshing orange juice drink,42 php,5,Available
+Summit,Smart C Juice Drink Pomelo Grapefruit,A tangy pomelo and grapefruit juice drink,42 php,50,Available
+Summit,Sprite Mismo,A fizzy and lemon-lime soda drink,25 php,45,Available
+Summit,Sprite Regular,A classic lemon-lime carbonated soda,41 php,40,Available
+Summit,Summit Mineral Water 350ml,Pure and refreshing mineral water,18 php,35,Available
+Summit,Summit Mineral Water 500ml,Clean and crisp mineral water for hydration,18 php,30,Available
+Summit,Sunkist Zero Apple,A zero-sugar apple-flavored juice drink,27 php,25,Available
+Summit,Sunkist Zero Yogurt,A yogurt-infused beverage with a light taste,27 php,20,Available
+Summit,Vitamilk Banana,A nutritious banana-flavored soy milk drink,36 php,15,Available
+Summit,Vitamilk Chocolate,A rich and chocolatey soy milk drink,36 php,12,Available
+Summit,Vitamilk Double Chocolate,A double chocolate-flavored soy milk drink,36 php,10,Available
+Summit,Vitamilk Soymilk,A classic and nutritious soy milk drink,36 php,8,Available
+Summit,Vitamilk Strawberry,A strawberry-flavored soy milk drink,36 php,5,Available
+Summit,Zesto Calamansi,A tangy calamansi-flavored juice drink,39 php,50,Available
+Summit,Zesto Dalandan,A citrusy dalandan-flavored juice drink,39 php,45,Available
+Summit,Zesto Rootbeer,A fizzy and flavorful root beer drink,39 php,40,Available
+
+
+
