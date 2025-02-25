@@ -1,0 +1,10 @@
+Summit,qr_images\qrpayment.png
+Paotsin,qr_images\qrpayment.png
+Chef Bab's,qr_images\qrpayment.png
+Angel's Pizza,qr_images\qrpayment.png
+Whimsy Whisk,qr_images\qrpayment.png
+Nescafe,qr_images\qrpayment.png
+Belgian Waffles,qr_images\qrpayment.png
+Jamaican Patty,qr_images\qrpayment.png
+Varda,qr_images\qrpayment.png
+Julie's Bakeshop,qr_images\qrpayment.png
