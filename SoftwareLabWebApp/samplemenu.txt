@@ -1,5 +1,5 @@
 Julie's Bakeshop,Violet Cream Loaf,Intricate violet and white braided loaf topped with sweet creamy icing and grated cheese.,22 php,49,Available
-Julie's Bakeshop,Choco German,With a creamy choco filling and topped with a sugary-margarine topping to complete the taste.,13 php,3,Available
+Julie's Bakeshop,Choco German,With a creamy choco filling and topped with a sugary-margarine topping to complete the taste.,13 php,0,Out of stock
 Julie's Bakeshop,Cinnamon Bun,Bread Bun filled with sugar and cinnamon which provide a robust and sweet flavor topped with glazed icing.,13 php,10,Available
 Julie's Bakeshop,Ensaymada Cheese,Twirl bread with rich golden brown crust and yellowish crumb with an intense butter note and topped with sugar.,22 php,10,Available
 Julie's Bakeshop,Ube Cheese de Sal,Soft and fluffy bread roll infused with rich ube (purple yam) flavor filled with creamy melted cheese. This sweet-savory pastry offers a delightful balance of earthy sweetness and salty indulgence making it a perfect treat for any time of the day.,13 php,10,Available
@@ -166,7 +166,7 @@ Paotsin,Crackling Pork with Laksa,Crispy crackling pork served in a hearty and a
 Paotsin,Crispy Porkchop with Laksa,A crispy porkchop paired with a bold and spicy laksa broth,210 php,10,Available
 Paotsin,Hainanese Rice,Fragrant and fluffy rice cooked in a flavorful Hainanese-style broth,25 php,50,Available
 Paotsin,Lemak Rice,Creamy coconut-infused rice with a rich and slightly sweet taste,55 php,40,Available
-Summit,A&W Rootbeer,A refreshing root beer with a classic smooth and creamy taste,45 php,8,Available
+Summit,A&W Rootbeer,A refreshing root beer with a classic smooth and creamy taste,45 php,9,Available
 Summit,Big 250 Apple,A sweet and crisp apple-flavored juice drink,14 php,9,Available
 Summit,Big 250 Grapes,A juicy and flavorful grape drink perfect for any time of the day,14 php,38,Available
 Summit,Big 250 Mango,A tropical mango juice drink with a rich and refreshing taste,14 php,33,Available

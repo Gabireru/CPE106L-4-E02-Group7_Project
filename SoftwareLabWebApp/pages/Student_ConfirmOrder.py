@@ -86,6 +86,7 @@ student_name = st.session_state["username"]
 discount_name = st.session_state.get("discount_name", "")
 order_summary = st.session_state["order_summary"]
 discount_applied = st.session_state.get("discount_applied", 0)
+discount_container = st.session_state.get("discount_container")
 final_price = st.session_state.get("final_price", 0)
 
 order_data = [
@@ -98,7 +99,8 @@ st.table(pd.DataFrame(order_data))
 
 if discount_applied > 0:
     st.markdown(f"**Discount Applied:** -₱{discount_applied:.2f}")
-
+    if discount_container:
+        st.markdown(f"**Container Discount applied: -10%**")
 st.markdown(f"### **Total Price: ₱{final_price:.2f}**")
 
 qr_payments = {}
@@ -147,40 +149,42 @@ with col2:
             
             st.session_state["proof_of_payment_path"] = file_path  
             
-        if os.path.exists(menu_file):
-            updated_menu = []
-            with open(menu_file, "r") as file:
-                for line in file:
-                    values = line.strip().split(",")
-                    if len(values) == 6 and values[0] == store_name:
-                        _, item, description, price, stock, availability = values
-                        stock = int(stock)
-                        
-                        if item in order_summary:
-                            qty_ordered, _ = order_summary[item]
-                            stock -= qty_ordered
-                            availability = "Out of stock" if stock == 0 else "Available"
+            if os.path.exists(menu_file):
+                updated_menu = []
+                with open(menu_file, "r") as file:
+                    for line in file:
+                        values = line.strip().split(",")
+                        if len(values) == 6 and values[0] == store_name:
+                            _, item, description, price, stock, availability = values
+                            stock = int(stock)
+                            
+                            if item in order_summary:
+                                qty_ordered, _ = order_summary[item]
+                                stock -= qty_ordered
+                                availability = "Out of stock" if stock == 0 else "Available"
 
-                        updated_menu.append(f"{store_name},{item},{description},{price},{stock},{availability}\n")
-                    else:
-                        updated_menu.append(line)
-            
-            with open(menu_file, "w") as file:
-                file.writelines(updated_menu)
+                            updated_menu.append(f"{store_name},{item},{description},{price},{stock},{availability}\n")
+                        else:
+                            updated_menu.append(line)
+                
+                with open(menu_file, "w") as file:
+                    file.writelines(updated_menu)
 
-        if discount_applied > 0 and os.path.exists(discount_file):
-            updated_discounts = []
-            with open(discount_file, "r") as file:
-                for line in file:
-                    values = line.strip().split(",")
-                    if len(values) == 4 and values[0] == store_name and values[1] == discount_name:
-                        continue 
-                    updated_discounts.append(line)
+            if discount_applied > 0 and os.path.exists(discount_file):
+                updated_discounts = []
+                with open(discount_file, "r") as file:
+                    for line in file:
+                        values = line.strip().split(",")
+                        if len(values) == 4 and values[0] == store_name and values[1] == discount_name:
+                            continue 
+                        updated_discounts.append(line)
 
-            with open(discount_file, "w") as file:
-                file.writelines(updated_discounts)
+                with open(discount_file, "w") as file:
+                    file.writelines(updated_discounts)
 
-        st.success("Order confirmed successfully!")
-        time.sleep(2)
-        st.switch_page("pages/Student_Stores.py")
+            st.success("Order confirmed successfully!")
+            time.sleep(2)
+            st.switch_page("pages/Student_Stores.py")
+        else:
+            st.warning("Please Upload Proof of Payment!")
 

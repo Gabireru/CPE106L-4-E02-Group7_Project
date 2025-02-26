@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Stock Management", page_icon="📃", layout="wide")
 
 
 st.markdown("""

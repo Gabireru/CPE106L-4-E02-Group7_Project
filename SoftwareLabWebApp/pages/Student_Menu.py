@@ -1,7 +1,6 @@
 import streamlit as st
 import os
-st.set_page_config(page_title="Menu", layout="wide")
-
+st.set_page_config(page_title="Menu", page_icon="📜", layout="wide")
 st.markdown("""
     <style>
         #MainMenu {visibility: hidden;}
@@ -103,7 +102,8 @@ if os.path.exists("samplemenu.txt"):
                     discount = 0.00
                     discount_found = False
                     discount_name = st.text_input("Discount Vouchers")
-
+                    discount_container = st.checkbox("Bring your own container discount")
+                    
                     if os.path.exists("discounts.txt"):
                         with open("discounts.txt", "r") as file:
                             discount_lines = file.readlines()
@@ -117,12 +117,16 @@ if os.path.exists("samplemenu.txt"):
                             elif discount_name == "":
                                 discount_found = True
                                 break
-                                
-                    final_price = total_price - discount          
+                    if discount_container:
+                        final_price = (total_price * 0.90) - discount
+                    else:
+                        final_price = total_price - discount          
                     
                     st.markdown(f"Total: **₱{final_price:.2f}**")
                     if discount > 0:
                         st.markdown(f"*(Discount applied: -₱{discount:.2f})*")
+                        if discount_container:
+                            st.markdown(f"*(Container Discount applied: -10%)*")
                     elif discount_name and not discount_found:
                         st.warning("Invalid discount voucher.")
                         
@@ -130,6 +134,7 @@ if os.path.exists("samplemenu.txt"):
                         st.session_state["order_summary"] = order
                         st.session_state["discount_applied"] = discount
                         st.session_state["discount_name"] = discount_name
+                        st.session_state["discount_container"] = discount_container
                         st.session_state["final_price"] = final_price
                         if discount_found:
                             st.switch_page("pages/Student_ConfirmOrder.py")

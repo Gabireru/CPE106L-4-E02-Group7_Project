@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import os
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Transactions", page_icon="🧾", layout="wide")
 
 st.markdown("""
     <style>
