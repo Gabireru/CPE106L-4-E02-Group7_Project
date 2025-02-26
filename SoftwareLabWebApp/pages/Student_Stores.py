@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 
-st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
+st.set_page_config(page_title="Stores", page_icon="🏪", layout="wide")
 
 st.markdown("""
     <style>

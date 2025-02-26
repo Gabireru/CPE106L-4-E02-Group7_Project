@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 
-st.set_page_config(page_title="Admin Login", page_icon="🔑", layout="wide")
+st.set_page_config(page_title="Login", page_icon="🔑", layout="wide")
 st.markdown("""
     <style>
         #MainMenu {visibility: hidden;}
@@ -97,7 +97,7 @@ if not st.session_state["logged_in"]:
     st.markdown("<h2 style='text-align: center;'>🔒Login</h2>", unsafe_allow_html=True)
 
     with st.form("login_form"):
-        username = st.text_input("👤 Username")
+        username = st.text_input("👤 Username/User ID")
         password = st.text_input("🔑 Password", type="password")
         if st.form_submit_button("Login"):
             store_name, role = check_user(username, password)
