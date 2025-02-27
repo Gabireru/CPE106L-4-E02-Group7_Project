@@ -1,48 +1,69 @@
-Good day!
+# Mapua University Canteen Ordering System
 
-We are Group 7 of CPE106L-4, section E02.
+## Introduction
+Greetings! The **Mapua University Canteen Ordering System** is a web-based platform designed to streamline food ordering within the university. Built using the **Python** programming language and **Streamlit** web framework, this system enables store owners to manage menus and discounts while allowing users to browse and place orders conveniently.
 
-Welcome to the Mapua University Canteen Ordering System Application!
+## Prerequisites
+Before running the application, ensure you have the following installed:
 
-Here are the instructions on how to run the application inside an IDE like Visual Studio Code:
-
-Prerequisites:
-Before running the application, make sure you have the following installed:  
-
-1. Python (>= 3.8) 
+1. **Python (>= 3.8)**  
    - Download and install Python from [python.org](https://www.python.org/downloads/).  
-   - Ensure pip is installed (comes with Python).  
+   - Ensure `pip` is installed (comes with Python).
 
-2. Visual Studio Code (VS Code) 
+2. **Visual Studio Code (VS Code)**  
    - Download and install [VS Code](https://code.visualstudio.com/).  
-   - Install the Python extension in VS Code.  
+   - Install the **Python extension** in VS Code.
 
-3. Install Required Python Packages
-  - pandas
+3. **Required Python Packages**  
+   - Install dependencies using:
+     ```
+     pip install streamlit
+     pip install pandas
+     ```
 
-Running the Application
-1. Open the Project in VS Code
-- Launch VS Code.
-- Go to the top left and there should be a button there that reads "File"
-- Click the button and choose the option "Open Folder"
-  Note: you can also open a folder quickly by using the shortuct Ctrl K + Ctrl O
-- Open the folder where the project files are located.  
+## Running the Application
 
-2. Run the Main Application
-- Open the VS Code terminal  
-- Navigate to the project directory (if needed):  
-- Run the Streamlit application in the terminal:  
-  streamlit run Login.py
-- This will launch the application in your default web browser.  
+### 1. Clone the Repository (Optional)
+If using Git, you can clone the project:
+```
+git clone https://github.com/your-repo-link.git
+cd your-repo-folder
+```
 
 
-Troubleshooting Common Issues
-ModuleNotFoundError: No module named streamlit
-- pip install streamlit
+### 2. Open the Project in VS Code
+- Launch **VS Code**.
+- Open the project folder:
+  - Click **File** > **Open Folder**
+  - OR use the shortcut: **Ctrl + K, Ctrl + O**
 
-ModuleNotFoundError: No module named pandas
-- pip install pandas
+### 3. Install Dependencies
+```
+pip install -r requirements.txt
+```
 
-File Read/Write Issues (e.g., PermissionError) 
-- Ensure the application has write permissions to samplemenu.txt and discounts.txt.
+### 4. Run the Application
+```
+streamlit run Login.py
+```
+- This will open the application in your default web browser.
+
+## Troubleshooting Common Issues
+
+### 1. ModuleNotFoundError: No module named 'streamlit'
+- Run:
+  ```
+  pip install streamlit
+  ```  
+
+### 2. ModuleNotFoundError: No module named 'pandas'
+- Run:
+  ```
+  pip install pandas
+  ```
+
+### 3. File Read/Write Issues (e.g., PermissionError)
+- Ensure the application has write access to "samplemenu.txt" and "discounts.txt".
+- Try running VS Code as an **administrator** (Windows) or using `sudo` (Linux/macOS).
+
 
