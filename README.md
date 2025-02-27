@@ -50,6 +50,8 @@ streamlit run Login.py
 
 ## Troubleshooting Common Issues
 
+### For 1. and 2., make sure you run these commands in the same directory!
+
 ### 1. ModuleNotFoundError: No module named 'streamlit'
 - Run:
   ```
@@ -65,5 +67,8 @@ streamlit run Login.py
 ### 3. File Read/Write Issues (e.g., PermissionError)
 - Ensure the application has write access to "samplemenu.txt" and "discounts.txt".
 - Try running VS Code as an **administrator** (Windows) or using `sudo` (Linux/macOS).
+
+### 4. Database not found!
+- Make sure that after downloading the "SoftwareLabWebApp", you must bring out the files and place those files in the main folder.
 
 
