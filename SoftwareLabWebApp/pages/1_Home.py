@@ -1,7 +1,59 @@
 import streamlit as st
-
 st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
+import base64
 
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+image_base64 = get_base64_image("design/HomeAdmin.png")
+sidebar_base64 = get_base64_image("design/Sidebar.png")
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] {{
+    position: absolute;
+    background-image: url("data:image/jpg;base64,{image_base64}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}}
+
+[data-testid="stAppViewContainer"]::before {{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+}}
+
+[data-testid="stHeader"]{{
+background-color: rgba(0, 0, 0, 0);
+}}
+
+[data-testid="stSidebar"]{{
+    position: absolute;
+    background-image: url("data:image/jpg;base64,{sidebar_base64}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}}
+[data-testid="stSidebar"]::before {{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 0;
+}}
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown("""
     <style>
         /* Hide the first sidebar navigation */
@@ -11,9 +63,11 @@ st.markdown("""
         .stButton > button {
             width: 100%;
             height: 60px;
+            font-family: 'Times New Roman', Times, serif;
             font-size: 20px;
             font-weight: bold;
             border-radius: 10px;
+            background-color: rgba(255,255,255, 0.3);
         }
         .block-container {
             display: flex;
@@ -30,8 +84,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 user_role = st.session_state.get("role", "") 
+store_name = st.session_state.get("store_name", "")
 
-st.sidebar.title("Admin")
+st.sidebar.title(f"{store_name}")
 
 if user_role == "admin":
     st.sidebar.page_link("pages/1_Home.py", label="Home")
@@ -41,7 +96,6 @@ if user_role == "admin":
     st.sidebar.page_link("pages/5_Transactions.py", label="Transactions")
 
 
-store_name = st.session_state.get("store_name", "")
 
 if "logged_in" not in st.session_state or not st.session_state["logged_in"]:
     st.switch_page("Login.py")
