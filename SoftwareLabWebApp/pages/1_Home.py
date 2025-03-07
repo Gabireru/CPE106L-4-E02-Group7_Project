@@ -50,6 +50,10 @@ background-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0.3); 
     z-index: 0;
 }}
+div[data-testid="stExpander"] {{
+    background: rgba(14, 17, 23, 0.3) !important; 
+    border-radius: 10px !important;
+}}
 </style>
 """
 
@@ -67,7 +71,12 @@ st.markdown("""
             font-size: 20px;
             font-weight: bold;
             border-radius: 10px;
-            background-color: rgba(255,255,255, 0.3);
+            background-color: rgba(14, 17, 23, 0.3);
+        }
+        .stButton > button:hover {
+            background-color: rgba(255, 255, 255, 0.3) !important; 
+            color: white !important; 
+            border: 2px solid rgba(255, 255, 255, 0.3) !important; 
         }
         .block-container {
             display: flex;

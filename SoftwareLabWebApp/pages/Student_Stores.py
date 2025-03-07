@@ -67,6 +67,11 @@ st.markdown("""
             border-radius: 10px;
 
         }
+        .stButton > button:hover {
+            background-color: rgba(255, 255, 255, 0.3) !important; 
+            color: white !important; 
+            border: 2px solid rgba(255, 255, 255, 0.3) !important; 
+        }
         .block-container {
             display: flex;
             flex-direction: column;

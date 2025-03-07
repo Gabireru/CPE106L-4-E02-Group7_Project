@@ -30,7 +30,7 @@ page_bg_img = f"""
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.6); 
     z-index: 0;
 }}
 
@@ -77,13 +77,17 @@ st.markdown("""
             display: none !important;
         }
         .stButton > button {
-            width: 100% !important;
-            height: 70px !important;
-            font-size: 20px !important;
-            font-weight: bold !important;
-            border-radius: 10px !important;
-            display: block !important;
-            background-color: rgba(255,255,255, 0.2);
+            width: 100%;
+            height: 60px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 10px;
+
+        }
+        .stButton > button:hover {
+            background-color: rgba(255, 255, 255, 0.3) !important; 
+            color: white !important; 
+            border: 2px solid rgba(255, 255, 255, 0.3) !important; 
         }
         .block-container {
             display: flex;
@@ -166,7 +170,7 @@ if os.path.exists("payments.txt"):
                 qr_payments[values[0]] = values[1]
 
 if store_name in qr_payments and os.path.exists(qr_payments[store_name]):
-    st.image(qr_payments[store_name], caption="Scan this QR to pay", width=350)
+    st.image(qr_payments[store_name], caption="Scan this QR to pay", width=350, )
 else:
     st.error("No QR payment image found for this store.")
 

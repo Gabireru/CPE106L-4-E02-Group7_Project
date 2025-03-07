@@ -51,7 +51,7 @@ background-color: rgba(0, 0, 0, 0);
     z-index: 0;
 }}
 div[data-testid="stExpander"] {{
-    background: rgba(14, 17, 23, 0.8) !important; 
+    background: rgba(14, 17, 23, 0.9) !important; 
     border-radius: 10px !important;
 }}
 </style>
@@ -180,7 +180,8 @@ if os.path.exists("samplemenu.txt"):
                     else:
                         final_price = total_price - discount          
                     
-                    st.markdown(f"Total: **₱{final_price:.2f}**")
+                    st.markdown(f"<h2 style='font-size: 20px;'>Total: <b>₱{final_price:.2f}</b></h2>", unsafe_allow_html=True)
+
                     if discount > 0:
                         st.markdown(f"*(Discount applied: -₱{discount:.2f})*")
                         if discount_container:
