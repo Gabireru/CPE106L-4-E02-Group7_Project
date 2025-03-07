@@ -1,6 +1,63 @@
 import streamlit as st
 import os
+import base64
 st.set_page_config(page_title="Menu", page_icon="📜", layout="wide")
+
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+image_base64 = get_base64_image("design/MenuStudent.png")
+sidebar_base64 = get_base64_image("design/Sidebar.png")
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] {{
+    position: absolute;
+    background-image: url("data:image/jpg;base64,{image_base64}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}}
+
+[data-testid="stAppViewContainer"]::before {{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255, 0.1); 
+    z-index: 0;
+}}
+
+[data-testid="stHeader"]{{
+background-color: rgba(0, 0, 0, 0);
+}}
+[data-testid="stSidebar"]{{
+    position: absolute;
+    background-image: url("data:image/jpg;base64,{sidebar_base64}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}}
+[data-testid="stSidebar"]::before {{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 0;
+}}
+div[data-testid="stExpander"] {{
+    background: rgba(14, 17, 23, 0.8) !important; 
+    border-radius: 10px !important;
+}}
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown("""
     <style>
         #MainMenu {visibility: hidden;}
@@ -25,6 +82,7 @@ st.markdown("""
             font-weight: bold !important;
             border-radius: 10px !important;
             display: block !important;
+        
         }
         .block-container {
             display: flex;

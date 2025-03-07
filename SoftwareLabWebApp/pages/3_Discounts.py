@@ -1,8 +1,65 @@
 import streamlit as st
 import pandas as pd
+import base64
 
 st.set_page_config(page_title="Discounts", page_icon="💰", layout="wide")
 
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+image_base64 = get_base64_image("design/DiscountsAdmin.png")
+sidebar_base64 = get_base64_image("design/Sidebar.png")
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] {{
+    position: absolute;
+    background-image: url("data:image/jpg;base64,{image_base64}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}}
+
+[data-testid="stAppViewContainer"]::before {{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+    z-index: 0;
+}}
+
+[data-testid="stHeader"]{{
+background-color: rgba(0, 0, 0, 0);
+}}
+[data-testid="stSidebar"]{{
+    position: absolute;
+    background-image: url("data:image/jpg;base64,{sidebar_base64}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}}
+[data-testid="stSidebar"]::before {{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 0;
+}}
+div[data-testid="stExpander"] {{
+    background: rgba(14, 17, 23, 0.8) !important; 
+    border-radius: 10px !important;
+}}
+
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown("""
     <style>
         #MainMenu {visibility: hidden;}
@@ -42,8 +99,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 user_role = st.session_state.get("role", "") 
+store_name = st.session_state.get("store_name", "")
 
-st.sidebar.title("Admin")
+st.sidebar.title(f"{store_name}")
 
 if user_role == "admin":
     st.sidebar.page_link("pages/1_Home.py", label="Home")
@@ -56,7 +114,6 @@ if "logged_in" not in st.session_state or not st.session_state["logged_in"]:
     st.switch_page("Login.py")
 
 
-store_name = st.session_state.get("store_name", "")
 
 
 st.markdown(f"<h1 style='text-align: center;'>{store_name} Discounts</h1>", unsafe_allow_html=True)

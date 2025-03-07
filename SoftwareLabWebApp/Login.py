@@ -1,7 +1,52 @@
 import streamlit as st
 import os
+import base64
 
 st.set_page_config(page_title="Login", page_icon="🔑", layout="wide")
+
+
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+image_base64 = get_base64_image("design/MAPUA.png")
+
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] {{
+    position: absolute;
+    background-image: url("data:image/jpg;base64,{image_base64}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}}
+
+[data-testid="stAppViewContainer"]::before {{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 0;
+}}
+
+/* Input Field Container */
+div[data-testid="stForm"] {{
+    background: rgba(14, 17, 23, 0.8) !important; 
+    padding: 20px !important;
+    border-radius: 10px !important;
+}}
+
+
+
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 st.markdown("""
     <style>
         #MainMenu {visibility: hidden;}
