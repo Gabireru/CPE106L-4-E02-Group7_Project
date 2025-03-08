@@ -113,12 +113,24 @@ users_file = "users.txt"
 if not os.path.exists(users_file):
     st.error("Database not found.")
 
+#Debug
 def check_user(username, password):
+    print(f"DEBUG: Checking login for Username: {username}, Password: {password}")
+
     with open(users_file, "r") as file:
         for line in file:
             values = line.strip().split(",")
-            if username == values[0] and password == values[1]:
+            print(f"DEBUG: Found in file -> {values}")
+
+            if len(values) < 4:
+                print("DEBUG: Skipping invalid line (less than 4 values)")
+                continue
+
+            if username == values[0] and password == values[1]: 
+                print("DEBUG: Match found!")
                 return values[2], values[3]
+
+    print("DEBUG: No match found in users.txt")
     return None, None
 
 if "logged_in" not in st.session_state:
