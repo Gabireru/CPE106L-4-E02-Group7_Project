@@ -41,10 +41,24 @@ div[data-testid="stForm"] {{
     color: rgba(255,255,255, 1)
 }}
 
-label, input,h2, textarea, select, button {{
+label, input,h2, textarea, select{{
     color: white !important;
 }}
-
+div[data-testid="stTextInput"] input {{
+    background-color: #262730 !important; 
+}}
+div[data-testid="stTextInput"] button {{
+    background-color: #262730 !important;
+    color: white !important; 
+}}
+div[data-testid="stTextInput"] > div {{
+    background-color: #262730 !important;  
+    border: none !important;
+}}
+div[data-testid="stForm"] button {{
+    background-color: #262730 !important;
+    color: white !important;
+}}
 </style>
 """
 
@@ -74,6 +88,8 @@ st.markdown("""
             font-weight: bold !important;
             border-radius: 10px !important;
             display: block !important;
+            background-color: rgba(19, 23, 32, 1);
+            color: white !important;
         }
         .block-container {
             display: flex;

@@ -54,7 +54,17 @@ div[data-testid="stExpander"] {{
     background: rgba(14, 17, 23, 0.9) !important; 
     border-radius: 10px !important;
 }}
-label, input, h1, h2, h5, hr, textarea, sidebar, select, button {{
+label, input, h1, h2, h5, hr, textarea, sidebar, select{{
+    color: white !important;
+}}
+div[data-testid="stTextInput"] input {{
+    background-color: #262730 !important; 
+}}
+div[data-testid="stNumberInput"] input {{
+    background-color: #262730 !important; 
+}}
+div[data-testid="stNumberInput"] button {{
+    background-color: #262730 !important;
     color: white !important;
 }}
 section[data-testid="stSidebar"] *{{
@@ -95,7 +105,8 @@ st.markdown("""
             font-weight: bold !important;
             border-radius: 10px !important;
             display: block !important;
-        
+            background-color: rgba(19, 23, 32, 1);
+            color: white !important; 
         }
         .block-container {
             display: flex;

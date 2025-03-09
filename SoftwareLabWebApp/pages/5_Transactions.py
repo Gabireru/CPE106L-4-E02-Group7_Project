@@ -52,8 +52,11 @@ background-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0.3); 
     z-index: 0;
 }}
-label, input, h1, h5, hr, textarea, sidebar, select, button {{
+label, input, h1, h5, hr, textarea, sidebar, select{{
     color: white !important;
+}}
+div[data-testid="stTextInput"] input {{
+    background-color: #262730 !important; 
 }}
 section[data-testid="stSidebar"] *{{
     color: white !important;
@@ -89,6 +92,8 @@ st.markdown("""
             font-weight: bold !important;
             border-radius: 10px !important;
             display: block !important;
+            background-color: rgba(19, 23, 32, 1);
+            color: white !important; 
         }
         .block-container {
             display: flex;

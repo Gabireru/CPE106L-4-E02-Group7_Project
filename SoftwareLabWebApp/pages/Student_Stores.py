@@ -51,8 +51,11 @@ background-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0.3); 
     z-index: 0;
 }}
-label, input, h1, h5, h6, hr, textarea, sidebar, select, button {{
+label, input, h1, h5, h6, hr, textarea, sidebar, select{{
     color: white !important;
+}}
+div[data-testid="stTextInput"] input {{
+    background-color: #262730 !important; 
 }}
 section[data-testid="stSidebar"] *{{
     color: white !important;
@@ -73,7 +76,8 @@ st.markdown("""
             height: 60px;
             font-size: 20px;
             font-weight: bold;
-            border-radius: 10px;
+            border-radius: 10px;background-color: rgba(19, 23, 32, 1);
+            color: white !important; 
 
         }
         .stButton > button:hover {

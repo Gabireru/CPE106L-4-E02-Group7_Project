@@ -52,12 +52,16 @@ background-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0.3); 
     z-index: 0;
 }}
-div[data-testid="stExpander"] {{
+div[data-testid="stExpander"] *{{
     background: rgba(14, 17, 23, 0.8) !important; 
     border-radius: 10px !important;
-}}
-label, input, h1, textarea, sidebar, select, button {{
     color: white !important;
+}}
+label, input, h1, textarea, sidebar, select{{
+    color: white !important;
+}}
+div[data-testid="stTextInput"] input {{
+    background-color: #262730 !important; 
 }}
 section[data-testid="stSidebar"] *{{
     color: white !important;
@@ -79,6 +83,7 @@ st.markdown("""
             white-space: normal !important; 
             word-break: break-word !important;
             overflow-wrap: break-word !important;
+            background-color: red !important;
         }
         div[data-testid="stDataFrameContainer"] {
             width: 100% !important;
@@ -94,6 +99,8 @@ st.markdown("""
             font-weight: bold !important;
             border-radius: 10px !important;
             display: block !important;
+            background-color: rgba(19, 23, 32, 1);
+            color: white !important; 
         }
         .block-container {
             display: flex;

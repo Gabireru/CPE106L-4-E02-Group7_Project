@@ -55,8 +55,19 @@ div[data-testid="stExpander"] {{
     border-radius: 10px !important;
 }}
 
-label, input, h1, h5, hr, textarea, sidebar, select, button {{
+label, input, textarea, h1, h5, hr, sidebar, select{{
     color: white !important;
+}}
+div[data-testid="stTextInput"] input {{
+    background-color: #262730 !important; 
+}}
+div[data-testid="stTextInput"] button {{
+    background-color: #262730 !important;
+    color: white !important; 
+}}
+div[data-testid="stTextInput"] > div {{
+    background-color: #262730 !important;  
+    border: none !important;
 }}
 section[data-testid="stSidebar"] *{{
     color: white !important;
@@ -81,7 +92,8 @@ st.markdown("""
             font-size: 20px;
             font-weight: bold;
             border-radius: 10px;
-            
+            background-color: rgba(19, 23, 32, 1);
+            color: white !important; 
         }
         .stButton > button:hover {
             background-color: rgba(255, 255, 255, 0.5) !important; 

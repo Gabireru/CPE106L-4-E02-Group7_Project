@@ -166,16 +166,16 @@ Paotsin,Crackling Pork with Laksa,Crispy crackling pork served in a hearty and a
 Paotsin,Crispy Porkchop with Laksa,A crispy porkchop paired with a bold and spicy laksa broth,210 php,10,Available
 Paotsin,Hainanese Rice,Fragrant and fluffy rice cooked in a flavorful Hainanese-style broth,25 php,50,Available
 Paotsin,Lemak Rice,Creamy coconut-infused rice with a rich and slightly sweet taste,55 php,40,Available
-Summit,A&W Rootbeer,A refreshing root beer with a classic smooth and creamy taste,45 php,9,Available
+Summit,A&W Rootbeer,A refreshing root beer with a classic smooth and creamy taste,45 php,7,Available
 Summit,Big 250 Apple,A sweet and crisp apple-flavored juice drink,14 php,9,Available
 Summit,Big 250 Grapes,A juicy and flavorful grape drink perfect for any time of the day,14 php,38,Available
 Summit,Big 250 Mango,A tropical mango juice drink with a rich and refreshing taste,14 php,33,Available
 Summit,Big 250 Orange,A citrusy and tangy orange juice drink,14 php,28,Available
 Summit,BO's Coffee Hazelnut,A rich hazelnut-flavored coffee for a warm and energizing boost,62 php,23,Available
 Summit,BO's Coffee Macchiato,A bold and creamy macchiato coffee blend,62 php,20,Available
-Summit,BO’s Coffee Mocha,A delightful mocha-flavored coffee drink,62 php,18,Available
+Summit,BO's Coffee Mocha,A delightful mocha-flavored coffee drink,62 php,18,Available
 Summit,BO's Coffee Latte,A smooth and creamy latte coffee blend,62 php,14,Available
-Summit,Cobra Berry,A berry-flavored energy drink to keep you energized throughout the day,29 php,12,Available
+Summit,Cobra Berry,A berry-flavored energy drink to keep you energized throughout the day,29 php,11,Available
 Summit,Cobra Regular,A classic energy drink for an instant boost,29 php,10,Available
 Summit,Cobra Smart,A smart energy drink packed with essential nutrients,29 php,8,Available
 Summit,Coke Light,A lighter version of Coca-Cola with reduced sugar,41 php,5,Available
