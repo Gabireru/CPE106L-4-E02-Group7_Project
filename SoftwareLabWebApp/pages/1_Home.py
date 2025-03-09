@@ -54,6 +54,14 @@ div[data-testid="stExpander"] {{
     background: rgba(14, 17, 23, 0.3) !important; 
     border-radius: 10px !important;
 }}
+
+label, input,h1, textarea, sidebar, select, button {{
+    color: white !important;
+}}
+section[data-testid="stSidebar"] *{{
+    color: white !important;
+}}
+
 </style>
 """
 
@@ -89,6 +97,7 @@ st.markdown("""
         section[data-testid="stSidebar"] {
             visibility: visible !important;
         }
+        
     </style>
 """, unsafe_allow_html=True)
 

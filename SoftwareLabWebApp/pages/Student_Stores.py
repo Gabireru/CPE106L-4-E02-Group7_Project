@@ -51,7 +51,16 @@ background-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0.3); 
     z-index: 0;
 }}
+label, input, h1, h5, h6, hr, textarea, sidebar, select, button {{
+    color: white !important;
+}}
+section[data-testid="stSidebar"] *{{
+    color: white !important;
+}}
 
+details div {{
+    color: white !important;
+}}
 </style>
 """
 
@@ -89,7 +98,9 @@ if "logged_in" not in st.session_state or not st.session_state["logged_in"]:
 
 Student_Name = st.session_state.get("store_name", "")
 
-st.sidebar.title("Student")
+
+st.sidebar.title(f"Hi! {Student_Name}")
+
 st.sidebar.page_link("pages/Student_Home.py", label="Home")
 st.sidebar.page_link("pages/Student_Stores.py", label="Stores")
 
@@ -105,7 +116,7 @@ if os.path.exists("users.txt"):
                 username, password, store_name = values[:3]
                 Store[store_name] = username  
 
-st.markdown("Select a Store:")
+st.markdown("<h6>Select a Store:</h6>", unsafe_allow_html=True)
 for Store in Store.keys():
     if st.button(Store):
         st.session_state["selected_store"] = Store

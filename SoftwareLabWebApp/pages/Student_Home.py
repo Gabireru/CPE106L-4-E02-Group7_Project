@@ -54,6 +54,17 @@ div[data-testid="stExpander"] {{
     background: rgba(14, 17, 23, 0.8) !important; 
     border-radius: 10px !important;
 }}
+
+label, input, h1, h5, hr, textarea, sidebar, select, button {{
+    color: white !important;
+}}
+section[data-testid="stSidebar"] *{{
+    color: white !important;
+}}
+
+details div {{
+    color: white !important;
+}}
 </style>
 """
 
@@ -92,8 +103,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 user_role = st.session_state.get("role", "") 
+Student_Name = st.session_state["store_name"]
 
-st.sidebar.title("Student")
+st.sidebar.title(f"Hi! {Student_Name}")
 
 if user_role == "student":
     st.sidebar.page_link("pages/Student_Home.py", label="Home")
@@ -101,7 +113,6 @@ if user_role == "student":
 else:
     st.sidebar.write("Please log in to see pages.")
     
-Student_Name = st.session_state["store_name"]
 
 if "logged_in" not in st.session_state or not st.session_state["logged_in"]:
     st.switch_page("Login.py")

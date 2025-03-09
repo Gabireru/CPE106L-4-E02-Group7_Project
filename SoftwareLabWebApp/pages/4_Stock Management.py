@@ -56,7 +56,16 @@ div[data-testid="stExpander"] {{
     background: rgba(14, 17, 23, 0.8) !important; 
     border-radius: 10px !important;
 }}
+label, input, h1, textarea, sidebar, select, button {{
+    color: white !important;
+}}
+section[data-testid="stSidebar"] *{{
+    color: white !important;
+}}
 
+details div {{
+    color: white !important;
+}}
 </style>
 """
 

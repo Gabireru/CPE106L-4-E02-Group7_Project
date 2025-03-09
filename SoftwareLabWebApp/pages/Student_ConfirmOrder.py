@@ -54,7 +54,26 @@ background-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0.3); 
     z-index: 0;
 }}
+label, input, table, thead th, tbody tr th,  h1, h2, h3, h5, h6, hr, textarea, sidebar, select, button {{
+    color: white !important;
+}}
+section[data-testid="stSidebar"] *{{
+    color: white !important;
+}}
+div[data-testid="stCheckbox"] label *{{
+    color: white !important;
+}}
+details div {{
+    color: white !important;
+}}
 
+div[data-testid="stFileUploader"] section {{
+    background-color: rgb(38, 39, 48) !important; 
+
+}}
+div[data-testid="stFileUploader"] * {{
+    color: white !important;
+}}
 </style>
 """
 
@@ -152,7 +171,7 @@ order_data = [
     for item, (qty, price) in order_summary.items()
 ]
 
-st.markdown("### **Order Summary**")
+st.markdown("<h3>Order Summary</h3>", unsafe_allow_html=True)
 st.table(pd.DataFrame(order_data))
 
 if discount_applied > 0:
@@ -174,7 +193,7 @@ if store_name in qr_payments and os.path.exists(qr_payments[store_name]):
 else:
     st.error("No QR payment image found for this store.")
 
-st.markdown("**Please present the proof of payment upon pick up**")
+st.markdown("<h6>Please present the proof of payment upon pick up</h6>", unsafe_allow_html=True)
 
 st.markdown("### **Upload Proof of Payment**")
 

@@ -56,6 +56,17 @@ div[data-testid="stExpander"] {{
     border-radius: 10px !important;
 }}
 
+label, input, h1, textarea, sidebar, select, button {{
+    color: white !important;
+}}
+section[data-testid="stSidebar"] *{{
+    color: white !important;
+}}
+
+details div {{
+    color: white !important;
+}}
+
 </style>
 """
 

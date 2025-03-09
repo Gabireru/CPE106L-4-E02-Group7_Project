@@ -52,7 +52,16 @@ background-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0.3); 
     z-index: 0;
 }}
+label, input, h1, h5, hr, textarea, sidebar, select, button {{
+    color: white !important;
+}}
+section[data-testid="stSidebar"] *{{
+    color: white !important;
+}}
 
+details div {{
+    color: white !important;
+}}
 </style>
 """
 
